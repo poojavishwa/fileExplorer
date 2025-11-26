@@ -43,7 +43,7 @@ export default function FileContent() {
 
     return (
         <div className="p-4 h-full flex flex-col">
-            {error && <div className="text-red-600 mb-2">{error}</div>}
+            {error && <div className="text-red-700 mb-2">{error}</div>}
             {!selectedId ? (
                 <div className="text-gray-500">Select a file to view</div>
             ) : (
