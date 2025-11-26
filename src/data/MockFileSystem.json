@@ -1,0 +1,25 @@
+{
+"id": "root",
+"name": "root",
+"type": "folder",
+"children": [
+{
+"id": "f-1",
+"name": "Documents",
+"type": "folder",
+"children": [
+{ "id": "file-1", "name": "resume.txt", "type": "file", "content": "This is my resume." },
+{ "id": "file-2", "name": "notes.md", "type": "file", "content": "# Notes\n- todo" }
+]
+},
+{
+"id": "f-2",
+"name": "Photos",
+"type": "folder",
+"children": [
+{ "id": "file-3", "name": "vacation.jpg", "type": "file", "content": "(binary)" }
+]
+},
+{ "id": "file-4", "name": "todo.txt", "type": "file", "content": "- buy milk" }
+]
+}
